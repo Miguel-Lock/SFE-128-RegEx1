@@ -1,0 +1,100 @@
+20:38:12.665051 IP6 fe80::10:18ff:fe45:b55e > ff02::1: ICMP6, router advertisement, length 120
+20:38:13.091474 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62383 > 2620:149:a41:a06::5.443: UDP, length 41
+20:38:13.122225 IP6 2620:149:a41:a06::5.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62383: UDP, length 31
+20:38:13.274377 IP 10.0.0.253.63294 > 255.255.255.255.6667: UDP, length 172
+20:38:15.634577 IP6 fe80::10:18ff:fe45:b55e > ff02::1: ICMP6, router advertisement, length 120
+20:38:15.837496 IP6 2603:1036:302:415e::2.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63701: Flags [P.], seq 3023884399:3023884434, ack 807115641, win 16385, options [nop,nop,TS val 427199426 ecr 2365025693], length 35
+20:38:15.837498 IP6 2603:1036:302:415e::2.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63701: Flags [P.], seq 35:1126, ack 1, win 16385, options [nop,nop,TS val 427199429 ecr 2365025693], length 1091
+20:38:15.837499 IP6 2603:1036:302:415e::2.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63701: Flags [P.], seq 1126:1161, ack 1, win 16385, options [nop,nop,TS val 427199429 ecr 2365025693], length 35
+20:38:15.838009 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63701 > 2603:1036:302:415e::2.443: Flags [.], ack 1161, win 2001, options [nop,nop,TS val 2365070780 ecr 427199429], length 0
+20:38:15.838010 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63701 > 2603:1036:302:415e::2.443: Flags [.], ack 1161, win 2048, options [nop,nop,TS val 2365070780 ecr 427199429], length 0
+20:38:17.180230 IP 10.0.0.190.62086 > 52.226.139.121.443: Flags [P.], seq 2810715891:2810715905, ack 3812155959, win 4096, length 14
+20:38:17.263747 IP 52.226.139.121.443 > 10.0.0.190.62086: Flags [.], ack 14, win 6865, length 0
+20:38:17.263911 IP 10.0.0.190.62086 > 52.226.139.121.443: Flags [P.], seq 14:43, ack 1, win 4096, length 29
+20:38:17.287268 IP 52.226.139.121.443 > 10.0.0.190.62086: Flags [P.], seq 1:175, ack 43, win 6836, length 174
+20:38:17.287408 IP 10.0.0.190.62086 > 52.226.139.121.443: Flags [.], ack 175, win 4093, length 0
+20:38:18.292387 IP 10.0.0.253.63294 > 255.255.255.255.6667: UDP, length 172
+20:38:18.603622 IP6 fe80::10:18ff:fe45:b55e > ff02::1: ICMP6, router advertisement, length 120
+20:38:18.801993 IP 10.0.0.190.62075 > 54.175.140.172.443: Flags [P.], seq 3640458464:3640458500, ack 1816425679, win 2048, options [nop,nop,TS val 3438544373 ecr 967880649], length 36
+20:38:18.848141 IP 54.175.140.172.443 > 10.0.0.190.62075: Flags [P.], seq 1:33, ack 36, win 116, options [nop,nop,TS val 967908158 ecr 3438544373], length 32
+20:38:18.848317 IP 10.0.0.190.62075 > 54.175.140.172.443: Flags [.], ack 33, win 2047, options [nop,nop,TS val 3438544420 ecr 967908158], length 0
+20:38:19.372978 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62117 > 2001:558:feed:443::2.443: Flags [.], ack 1957358396, win 2048, length 0
+20:38:19.396448 IP6 2001:558:feed:443::2.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62117: Flags [.], ack 1, win 21420, options [nop,nop,TS val 2432044488 ecr 3086024234], length 0
+20:38:19.418374 ARP, Request who-has 169.254.169.254 tell 10.0.0.135, length 46
+20:38:19.670873 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [S], seq 2150050717, win 65535, options [mss 1440,nop,wscale 6,nop,nop,TS val 2239804285 ecr 0,sackOK,eol], length 0
+20:38:19.704604 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [S.], seq 1924854091, ack 2150050718, win 65535, options [mss 1440,sackOK,TS val 193572614 ecr 2239804285,nop,wscale 8], length 0
+20:38:19.704970 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [.], ack 1, win 2052, options [nop,nop,TS val 2239804319 ecr 193572614], length 0
+20:38:19.704970 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [P.], seq 1:518, ack 1, win 2052, options [nop,nop,TS val 2239804319 ecr 193572614], length 517
+20:38:19.735630 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], ack 518, win 261, options [nop,nop,TS val 193572644 ecr 2239804319], length 0
+20:38:19.735631 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], ack 518, win 261, options [nop,nop,TS val 193572644 ecr 2239804319], length 0
+20:38:19.735632 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], seq 1:1209, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 1208
+20:38:19.735636 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [P.], seq 1209:2417, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 1208
+20:38:19.735981 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [.], ack 2417, win 2015, options [nop,nop,TS val 2239804350 ecr 193572645], length 0
+20:38:19.737224 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], seq 2417:3625, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 1208
+20:38:19.737226 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [P.], seq 3625:4833, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 1208
+20:38:19.737227 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], seq 4833:6041, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 1208
+20:38:19.737228 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [P.], seq 6041:6676, ack 518, win 261, options [nop,nop,TS val 193572645 ecr 2239804319], length 635
+20:38:19.737493 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [.], ack 6676, win 1981, options [nop,nop,TS val 2239804352 ecr 193572645], length 0
+20:38:19.737493 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [.], ack 6676, win 2048, options [nop,nop,TS val 2239804352 ecr 193572645], length 0
+20:38:19.741538 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [P.], seq 518:582, ack 6676, win 2048, options [nop,nop,TS val 2239804356 ecr 193572645], length 64
+20:38:19.742733 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [P.], seq 582:1036, ack 6676, win 2048, options [nop,nop,TS val 2239804357 ecr 193572645], length 454
+20:38:19.742782 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [P.], seq 1036:2029, ack 6676, win 2048, options [nop,nop,TS val 2239804357 ecr 193572645], length 993
+20:38:19.773279 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], ack 2029, win 273, options [nop,nop,TS val 193572683 ecr 2239804356], length 0
+20:38:19.792600 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [.], seq 6676:7884, ack 2029, win 273, options [nop,nop,TS val 193572701 ecr 2239804356], length 1208
+20:38:19.792602 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [P.], seq 7884:8517, ack 2029, win 273, options [nop,nop,TS val 193572701 ecr 2239804356], length 633
+20:38:19.792603 IP6 2607:f8b0:4004:c06::65.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.63708: Flags [P.], seq 8517:8875, ack 2029, win 273, options [nop,nop,TS val 193572701 ecr 2239804356], length 358
+20:38:19.792785 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [.], ack 8875, win 2013, options [nop,nop,TS val 2239804407 ecr 193572701], length 0
+20:38:19.794802 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.63708 > 2607:f8b0:4004:c06::65.443: Flags [R], seq 2150052746, win 0, length 0
+20:38:20.140271 ARP, Request who-has 169.254.169.254 tell 10.0.0.135, length 46
+20:38:20.849478 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62047 > 2607:f8b0:4004:c19::bc.5228: Flags [.], ack 250371138, win 2048, length 0
+20:38:20.875561 IP6 2607:f8b0:4004:c19::bc.5228 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62047: Flags [.], ack 1, win 265, options [nop,nop,TS val 2231049679 ecr 2069366198], length 0
+20:38:21.057301 ARP, Request who-has 169.254.169.254 tell 10.0.0.135, length 46
+20:38:21.366842 IP 51.15.16.9.443 > 10.0.0.190.62187: Flags [P.], seq 2405622075:2405622121, ack 1043835021, win 62, length 46
+20:38:21.366844 IP 51.15.16.9.443 > 10.0.0.190.62187: Flags [P.], seq 46:77, ack 1, win 62, length 31
+20:38:21.366845 IP 51.15.16.9.443 > 10.0.0.190.62187: Flags [F.], seq 77, ack 1, win 62, length 0
+20:38:21.367039 IP 10.0.0.190.62187 > 51.15.16.9.443: Flags [.], ack 77, win 4094, length 0
+20:38:21.367196 IP 10.0.0.190.62187 > 51.15.16.9.443: Flags [.], ack 78, win 4094, length 0
+20:38:21.367488 IP 10.0.0.190.62187 > 51.15.16.9.443: Flags [F.], seq 1, ack 78, win 4096, length 0
+20:38:21.479027 IP 51.15.16.9.443 > 10.0.0.190.62187: Flags [.], ack 2, win 62, length 0
+20:38:21.569046 IP6 fe80::10:18ff:fe45:b55e > ff02::1: ICMP6, router advertisement, length 120
+20:38:22.015162 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62383 > 2620:149:a41:a06::5.443: UDP, length 29
+20:38:22.015430 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.58702 > 2620:149:a41:a07::9.443: UDP, length 29
+20:38:22.052483 IP6 2620:149:a41:a06::5.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62383: UDP, length 34
+20:38:22.053969 IP6 2620:149:a41:a07::9.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.58702: UDP, length 34
+20:38:22.134085 IP6 2607:f8b0:4004:808::200a.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62124: Flags [P.], seq 2881212900:2881212985, ack 1005258567, win 265, options [nop,nop,TS val 4179486225 ecr 457110135], length 85
+20:38:22.134421 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62124 > 2607:f8b0:4004:808::200a.443: Flags [.], ack 85, win 2048, options [nop,nop,TS val 457140088 ecr 4179486225], length 0
+20:38:22.306869 IP6 2001:978:2:2c::1ee:198.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62189: Flags [P.], seq 1001936885:1001936923, ack 758372066, win 32048, length 38
+20:38:22.306871 IP6 2001:978:2:2c::1ee:198.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62189: Flags [P.], seq 38:61, ack 1, win 32048, length 23
+20:38:22.307071 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62189 > 2001:978:2:2c::1ee:198.443: Flags [.], ack 61, win 4095, length 0
+20:38:22.307209 IP6 2001:978:2:2c::1ee:198.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62189: Flags [F.], seq 61, ack 1, win 32048, length 0
+20:38:22.307288 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62189 > 2001:978:2:2c::1ee:198.443: Flags [.], ack 62, win 4095, length 0
+20:38:22.307582 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.62189 > 2001:978:2:2c::1ee:198.443: Flags [F.], seq 1, ack 62, win 4096, length 0
+20:38:22.411635 IP6 2001:978:2:2c::1ee:198.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.62189: Flags [.], ack 2, win 32048, length 0
+20:38:23.310844 IP 10.0.0.253.63294 > 255.255.255.255.6667: UDP, length 172
+20:38:24.428039 IP6 fe80::18ad:3866:399b:194a > fe80::10:18ff:fe45:b55e: ICMP6, neighbor solicitation, who has fe80::10:18ff:fe45:b55e, length 32
+20:38:24.437855 IP6 fe80::10:18ff:fe45:b55e > fe80::18ad:3866:399b:194a: ICMP6, neighbor advertisement, tgt is fe80::10:18ff:fe45:b55e, length 24
+20:38:24.641291 IP6 fe80::10:18ff:fe45:b55e > ff02::1: ICMP6, router advertisement, length 120
+20:38:25.153128 IP6 2601:548:c103:8540:b9bc:507b:52f7:5833.58702 > 2620:149:a41:a07::9.443: UDP, length 41
+20:38:25.185690 IP6 2620:149:a41:a07::9.443 > 2601:548:c103:8540:b9bc:507b:52f7:5833.58702: UDP, length 31
+20:38:25.255629 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0 [5q] [1n] [1au] PTR (QU)? lb._dns-sd._udp.local. PTR (QU)? _homekit._tcp.local. PTR (QU)? _companion-link._tcp.local. PTR (QU)? _sleep-proxy._udp.local. ANY (QU)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (229)
+20:38:25.255639 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0 [5q] [1n] [1au] PTR (QU)? lb._dns-sd._udp.local. PTR (QU)? _homekit._tcp.local. PTR (QU)? _companion-link._tcp.local. PTR (QU)? _sleep-proxy._udp.local. ANY (QU)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (229)
+20:38:25.255947 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0*- [0q] 5/0/5 PTR _apple-mobdev2._tcp.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local. (434)
+20:38:25.256753 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0*- [0q] 5/0/5 PTR _apple-mobdev2._tcp.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local., (Cache flush) PTR Frezza-iPad-Pro.local. (434)
+20:38:25.312771 IP 10.0.0.190.5353 > 10.0.0.101.5353: 0*- [0q] 1/0/7 PTR Dr. Stephen FrezzaM-bM-^@M-^Ys MacBook Air._companion-link._tcp.local. (442)
+20:38:25.461338 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0 [1n] [1au] ANY (QM)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (151)
+20:38:25.461346 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0 [1n] [1au] ANY (QM)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (151)
+20:38:25.655188 IP 10.0.0.190.62062 > 170.114.15.28.443: Flags [P.], seq 3875854534:3875854749, ack 1339326152, win 2048, options [nop,nop,TS val 633846307 ecr 1079222618], length 215
+20:38:25.684238 IP 170.114.15.28.443 > 10.0.0.190.62062: Flags [.], ack 215, win 27, options [nop,nop,TS val 1079238674 ecr 633846307], length 0
+20:38:25.684238 IP 170.114.15.28.443 > 10.0.0.190.62062: Flags [P.], seq 1:194, ack 215, win 27, options [nop,nop,TS val 1079238675 ecr 633846307], length 193
+20:38:25.684389 IP 10.0.0.190.62062 > 170.114.15.28.443: Flags [.], ack 194, win 2044, options [nop,nop,TS val 633846336 ecr 1079238675], length 0
+20:38:25.766422 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0 [4n] [1au] ANY (QU)? Frezza-iPad-Pro.local. (168)
+20:38:25.767431 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0 [4n] [1au] ANY (QU)? Frezza-iPad-Pro.local. (168)
+20:38:25.869900 IP 10.0.0.101 > 224.0.0.251: igmp v2 report 224.0.0.251
+20:38:25.869907 IP 10.0.0.1 > 224.0.0.251: igmp query v2 [gaddr 224.0.0.251]
+20:38:25.869908 IP 10.0.0.1 > 224.0.0.251: igmp query v2 [gaddr 224.0.0.251]
+20:38:25.869921 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0 [1n] [1au] ANY (QM)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (151)
+20:38:25.869926 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0 [1n] [1au] ANY (QM)? 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local. (151)
+20:38:25.974854 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0 [4n] [1au] ANY (QM)? Frezza-iPad-Pro.local. (168)
+20:38:25.974864 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0 [4n] [1au] ANY (QM)? Frezza-iPad-Pro.local. (168)
+20:38:26.077354 IP 10.0.0.101.5353 > 224.0.0.251.5353: 0*- [0q] 4/0/2 (Cache flush) TXT "", PTR 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local., PTR 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local., (Cache flush) SRV Frezza-iPad-Pro.local.:32498 0 0 (221)
+20:38:26.077362 IP6 fe80::14a6:9b8c:4f83:aa62.5353 > ff02::fb.5353: 0*- [0q] 4/0/2 (Cache flush) TXT "", PTR 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local., PTR 50:de:06:34:3b:cf@fe80::52de:6ff:fe34:3bcf._apple-mobdev2._tcp.local., (Cache flush) SRV Frezza-iPad-Pro.local.:32498 0 0 (221)
