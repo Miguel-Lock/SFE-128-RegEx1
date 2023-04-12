@@ -12,4 +12,12 @@ for(@lines) {
 }
 
 
-print $#lines # note that this is index, meaning result + 1 = total array values
+print $#lines; # note that this is index, meaning result + 1 = total array values
+
+print("\n\n");
+
+for(@lines) {
+	if($_ =~ /is/) {
+		print $_;
+	}
+}
