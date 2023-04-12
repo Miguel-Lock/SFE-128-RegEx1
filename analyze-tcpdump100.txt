@@ -1,0 +1,3 @@
+Lines with IP : 33
+Lines with IP6: 64
+Lines with ARP: 3
