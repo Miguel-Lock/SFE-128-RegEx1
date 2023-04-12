@@ -34,4 +34,6 @@ cat tcpdump100.log | grep "IP6" | head -5 | cb, first mac doe snot show because 
 
 Are we reporting connectionsffromleft or right side of the carrot?
 
+READ UP TO CHAPTER 8 MATCH VARIABLES!!!!!!!!
+
 
