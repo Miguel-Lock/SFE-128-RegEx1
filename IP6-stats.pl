@@ -29,11 +29,17 @@ sub main {
 			my $myVar = reverse $revMyVar;
 
 			say $myVar;
-
-
+		
+			if ($IP6_hash{$myVar}) { $IP6_hash{$myVar} += 1; }
+			else { $IP6_hash{$myVar} = 1; }
 		}
 	}
-	say "There are ", $IP6_connections, " IPv6 Connections!";
+
+	
+
+	$IP6_hash_size = keys %IP6_hash;
+	say "There are ", $IP6_connections, " total IPv6 Connections!";
+	say "There are ", $IP6_hash_size, " unique IPv6 Connections!";
 
 	# make hash. Add items. Default value is 0. Update vale to += 1 if more.
 
