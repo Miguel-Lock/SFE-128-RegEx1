@@ -16,8 +16,12 @@ print $#lines; # note that this is index, meaning result + 1 = total array value
 
 print("\n\n");
 
+$lineswithis = 0;
+
 for(@lines) {
 	if($_ =~ /is/) {
 		print $_;
+		$lineswithis += 1;
 	}
 }
+print($lineswithis);
