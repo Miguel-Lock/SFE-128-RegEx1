@@ -1,5 +1,0 @@
-This is line 1
-This: line 2
-Welcome to line 3
-Here is line 4
-fe80:30:030903

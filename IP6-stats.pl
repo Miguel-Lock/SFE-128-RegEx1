@@ -43,8 +43,27 @@ sub main {
 	say "There are ", $IP6_hash_size, " unique IPv6 Connections!";
 
 
+	$MAC_addresses = 0;
+        for(@lines) {
+                if($_ =~ /(([0-9a-fA-F]*:){5}[0-9a-fA-F]+@)/) {
 
-	#say "IP6 Connections: " . $hold . "\n";
+                        $MAC_addresses += 1;
+
+                        $MAC = $&;
+                        my $revMAC = reverse $MAC;
+                        chop($revMAC);
+                        my $MAC = reverse $revMAC;
+                        say $MAC;
+
+                        if ($MAC_hash{$MAC}) { $MAC_hash{$MAC} += 1; }
+                        else { $MAC_hash{$MAC} = 1; }
+                }
+        }
+
+	$MAC_hash_size = keys %MAC_hash;
+	say "There are ", $MAC_addresses, " total MAC addresses!";
+	say "There are ", $MAC_hash_size, " unique MAC addresses!";
+
 
 	#say "Machine count: " . $hold . "\n";
 
@@ -54,6 +73,10 @@ sub main {
 
 
 
+# (([0-9a-fA-F]{0,2}:){5}[0-9a-fA-F]{0,2})
+#
+# one IP to another IP is a connection!
+# even same Ip works!
 
 
 main();
