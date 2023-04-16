@@ -28,8 +28,8 @@ sub countIP6 {
 	# gets size of hash
 	$IP6_hash_size = keys %IP6_hash;
 
-	say "There are ", $IP6_connections, " total IPv6 Connections!";
-	say "There are ", $IP6_hash_size, " unique IPv6 Connections!\n";
+	$_[1] = $IP6_connections;
+	$_[2] = $IP6_hash_size;
 }
 
 sub countMAC {
@@ -48,8 +48,8 @@ sub countMAC {
 
 	$MAC_hash_size = keys %MAC_hash; #gets size of hash
 
-	say "There are ", $MAC_addresses, " total MAC addresses!";
-	say "There are ", $MAC_hash_size, " unique MAC addresses!\n";
+	$_[1] = $MAC_addresses;
+	$_[2] = $MAC_hash_size;
 }
 
 sub countConnections {
@@ -57,12 +57,13 @@ sub countConnections {
 
 	$connections = 0; #sets counter for connections
 	for(@lines) {
-		if($_ =~ /(IP.*>\ (([0-9a-fA-F]{0,4}:){5}[0-9a-fA-F]))|(IP.*>\ ff02::[0-9a-fA-F])|(IP.*>\ (([0-9]{1,3}+.){3}[0-9]{0,3}))/ ) { #if IP addresses exist on left and right sides of carrot
+		if($_ =~ /(IP.*>\ (([0-9a-fA-F]{0,4}:){5}[0-9a-fA-F]))|(IP.*>\ ff02::[0-9a-fA-F])|(IP.*>\ (([0-9]{1,3}+.){3}[0-9]{0,3}))/ ) { 
 			$connections += 1;
 		}
 	}
 
-	say "There are ", $connections, " total connections!";
+	#edits $totalConnections (passed by reference)
+	$_[1] = $connections;
 }
 
 
@@ -76,15 +77,21 @@ sub main {
 	close(FILE);
 	
 	#calls subroutine countIP6
-	&countIP6(\@lines);
-
-	#calls subroutine countMAC
-	&countMAC(\@lines);
-
-	#calls subroutine countConnections
-	&countConnections(\@lines);
+	$totalIP6 = 0; $uniqueIP6 = 0; #initialize variables
+	&countIP6(\@lines, $totalIP6, $uniqueIP6);
+	say "There are ", $totalIP6, " total IPv6 addresses!";
+	say "There are ", $uniqueIP6, " unique IPv6 addresses!\n";
 
 
+	$totalAddresses = 0; $uniqueAddresses = 0; #initialize variables
+	&countMAC(\@lines, $totalAddresses, $uniqueAddresses); 	#calls subroutine countMAC
+	say "There are ", $totalAddresses, " total MAC addresses!";
+	say "There are ", $uniqueAddresses, " unique MAC addresses!\n";
+
+
+	$totalConnections = 0; #initialize totalConnections
+	&countConnections(\@lines, $totalConnections); 	#calls subroutine countConnections
+	say "There are ", $totalConnections, " total connections!";
 }
 
 main();
