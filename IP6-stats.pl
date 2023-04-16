@@ -26,6 +26,7 @@ sub countIP6 {
 	}
 	$IP6_hash_size = keys %IP6_hash;
 
+	#edits $totalIP6, $uniqueIP6 (passed by reference)
 	$_[1] = $IP6_connections;
 	$_[2] = $IP6_hash_size;
 }
@@ -47,6 +48,7 @@ sub countMAC {
 
 	$MAC_hash_size = keys %MAC_hash;
 
+	#edits $totalAddresses, $uniqueAddresses (passed by reference)
 	$_[1] = $MAC_addresses;
 	$_[2] = $MAC_hash_size;
 }
