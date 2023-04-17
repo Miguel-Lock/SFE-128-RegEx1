@@ -19,7 +19,7 @@ sub countIP6 {
 			my $myVar = reverse $revMyVar;
 			
 			# if item exists as key in hash, increase the content by 1
-			if ($IP6_hash{$myVar}) { $IP6_hash{$myVar} += 1; }
+			if (exists($IP6_hash{$myVar})) { $IP6_hash{$myVar} += 1; }
 			# otherwise, make item key in hash and set value to 1
 			else { $IP6_hash{$myVar} = 1; }
 		}
@@ -71,10 +71,8 @@ sub countConnections {
 
 
 sub main {
-	$hold = "#";
-
 	#opens tcpdump100.log file into array @lines
-	my $IPLogs = 'tcpdump100.log';
+	$IPLogs = 'tcpdump100.log';
 	open(FILE, "<", $IPLogs) or die "Can't open $IPLogs";
 	my @lines = <FILE>;
 	close(FILE);
